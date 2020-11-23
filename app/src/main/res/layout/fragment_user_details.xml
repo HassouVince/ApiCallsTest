@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="14dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:elevation="20dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp"
+                    android:clickable="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+                        <TextView
+                            android:id="@+id/tvUserName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="User name"
+                            android:enabled="false"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="@dimen/m_txt"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_color"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="email"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="phone"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="address"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvWebSite"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="website"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="14dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:elevation="20dp"
+                android:layout_margin="5dp"
+                android:clickable="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp"
+                    android:clickable="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_work_24"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Société"
+                            android:enabled="false"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="@dimen/m_txt"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_color"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvCompanyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="normal"
+                        android:text="Company name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvCompanyPhrase"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="bold"
+                        android:text="Catch phrase"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/light_blue"/>
+
+                    <TextView
+                        android:id="@+id/tvCompanyBs"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:textSize="@dimen/txt"
+                        android:padding="15dp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginStart="3dp"
+                        android:textStyle="italic"
+                        android:text="bs"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="14dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:elevation="20dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:clickable="false"
+                    android:background="@android:color/white">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_image_24"/>
+
+                    <TextView
+                        android:id="@+id/tvAlbums"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Albums"
+                        android:enabled="false"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="@dimen/m_txt"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_gravity="center_vertical"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvAlbums"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="14dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:elevation="20dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:clickable="false"
+                    android:background="@android:color/white">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_edit_24"/>
+
+                    <TextView
+                        android:id="@+id/tvPosts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Posts"
+                        android:enabled="false"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="@dimen/m_txt"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_gravity="center_vertical"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPosts"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="500dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

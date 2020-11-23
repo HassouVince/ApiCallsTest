@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="s_txt3">10sp</dimen>
+    <dimen name="s_txt2">14sp</dimen>
+
+    <dimen name="l_txt">25sp</dimen>
+    <dimen name="m_txt">18sp</dimen>
+    <dimen name="txt">14sp</dimen>
+    <dimen name="s_txt">12sp</dimen>
+
+    <dimen name="spacing_small">5dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+
+</resources>
